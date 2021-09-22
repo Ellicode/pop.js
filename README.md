@@ -1,8 +1,10 @@
 # pop.js
 Simple pop-up alerts with javascript.
+<p align="center"><img src="ScreenRecorderProject1.gif"></img></p>
+
 ## Installation
 ### Download link
-Start by downloading using <a href="../pop.js">This link</a>. 
+Start by downloading using <a href="pop.js">This link</a>. 
 ### CDN
 The CDN link to my website are coming soon.
 ## Usage
