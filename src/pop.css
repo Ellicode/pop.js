@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+@keyframes animation {
+    0% {
+        transform: scale(0.0);
+    }
+
+    100% {
+        transform: scale(1.0);
+    }
+}
+
+@keyframes rotate {
+    0% {
+        transform: scale(0.0) rotate(180deg);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1.0) rotate(0deg);
+        opacity: 1;
+    }
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+dialog {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    padding: 20px;
+    text-align: center;
+    border: none;
+    position: relative;
+    border-radius: 5px;
+    -webkit-box-shadow: 5px 5px 29px 1px rgba(0, 0, 0, 0.78);
+    box-shadow: 5px 5px 29px 1px rgba(0, 0, 0, 0.78);
+    animation: animation 0.5s cubic-bezier(.42, .05, .02, 1.22);
+}
+
+dialog::backdrop {
+    animation: fade 0.5s cubic-bezier(.42, .05, .02, 1.22);
+
+    background-color: rgba(0, 0, 0, 0.4);
+
+}
+
+
+dialog button[value="ok"] {
+    font-family: 'Open Sans', sans-serif;
+
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px;
+    outline: none;
+    margin-right: 10px;
+    background: #4287f5;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+dialog button[value="ok"]:hover {
+    background: #113a7a;
+}
+
+dialog button[value="ok"]:focus {
+    outline: 2px solid #95b5e8;
+    outline-offset: 3px;
+}
+
+
+dialog button[value="cancel"] {
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px;
+    outline: none;
+    margin-right: 10px;
+    color: #000000;
+    background: none;
+    border: 3px solid #ccc;
+    font-weight: bold;
+}
+
+dialog button[value="cancel"]:hover {
+    background: #ccc;
+}
+
+dialog button[value="cancel"]:focus {
+    outline: 2px solid #95b5e8;
+    outline-offset: 3px;
+}
+
+.ui-modal-icon{
+    animation: rotate 0.5s cubic-bezier(.42, .05, .02, 1.22);
+}
