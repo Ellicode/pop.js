@@ -4,7 +4,9 @@ Simple pop-up alerts with javascript.
 
 ## Installation
 ### Download link
-Start by downloading using <a href="pop.js">This link</a>. 
+|                           |                            |
+|:-------------------------:|:--------------------------:|
+|<a href="src/pop.js">JS</a>|<a href="src/pop.js">CSS</a>|
 ### CDN
 The CDN link to my website are coming soon.
 ## Usage
@@ -27,9 +29,6 @@ uiprompt( {
                                     title: "Deleted",
                                     type: "delete",
                                     text: "You heve delete permenantely your file.",
-                                    buttons: {
-                                        
-                                    }
                                 }
                             )
                         }
@@ -55,10 +54,7 @@ It will make a confirm then if you click the next button, it will show an alert.
                             uialert(
                                 {
                                     title: "Func is",
-                                    text: "The action when you click on the button",
-                                    buttons: {
-                                        
-                                    }
+                                    text: "The action when you click on the button"
                                 }
                             )
                         }
@@ -69,10 +65,7 @@ It will make a confirm then if you click the next button, it will show an alert.
                             uialert(
                                 {
                                     title: "Func is",
-                                    text: "The action when you click on the button",
-                                    buttons: {
-                                        
-                                    }
+                                    text: "The action when you click on the button"
                                 }
                             )
                         }
