@@ -1,15 +1,11 @@
-# Pop.js
-### A library of customisable simple modals
-
-
-## Downloading
+# Downloading
 Click the button below to download pop.css!
 
-<a href="popjs.zip" download>Download zip</a>
+[Download](jsmodals.zip)
 
 Thank you for downloading pop.css!
 
-## Usage
+# Usage
 All you need to do is calling the uialert, uiconfirm or uiprompt function and enter some parameters (See keyword section).
 
 ### Example
@@ -39,7 +35,7 @@ uiprompt( {
 ```
 
 
-## Keywords
+# Keywords
 
 Below is all the keywords in pop.js
 
@@ -77,7 +73,7 @@ Below is all the keywords in pop.js
     }
 }
 ```
-## Examples
+# Examples
 
 ### Success
 ```javascript
@@ -132,5 +128,4 @@ uiprompt( {
         prompt: "Prompt: "
 })
 ```
-ℹ️: Write html input types in the inputType option.
-
+INFO: Write html input types in the inputType option.
