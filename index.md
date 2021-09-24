@@ -5,7 +5,7 @@
 ## Downloading
 Click the button below to download pop.css!
 
-<a href="popjs.zip" download>Download zip</a>
+[Download](popjs.zip)
 
 Thank you for downloading pop.css!
 
@@ -132,5 +132,5 @@ uiprompt( {
         prompt: "Prompt: "
 })
 ```
-ℹ️: Write html input types in the inputType option.
+INFO: Write html input types in the inputType option.
 
