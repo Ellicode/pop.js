@@ -5,7 +5,7 @@
 ## Downloading
 Click the button below to download pop.css!
 
-[Download](popjs.zip)
+[Download](jsmodals.zip)
 
 Thank you for downloading pop.css!
 
