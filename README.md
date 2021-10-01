@@ -1,5 +1,4 @@
 # Pop.js
-Simple pop-up alerts in javascript.
 
 ## Downloading
 Click the button below to download pop.css!
