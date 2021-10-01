@@ -1,11 +1,14 @@
-# Downloading
+# Pop.js
+Simple pop-up alerts in javascript.
+
+## Downloading
 Click the button below to download pop.css!
 
 [Download](jsmodals.zip)
 
 Thank you for downloading pop.css!
 
-# Usage
+## Usage
 All you need to do is calling the uialert, uiconfirm or uiprompt function and enter some parameters (See keyword section).
 
 ### Example
@@ -35,7 +38,7 @@ uiprompt( {
 ```
 
 
-# Keywords
+## Keywords
 
 Below is all the keywords in pop.js
 
@@ -73,7 +76,7 @@ Below is all the keywords in pop.js
     }
 }
 ```
-# Examples
+## Examples
 
 ### Success
 ```javascript
